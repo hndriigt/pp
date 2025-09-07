@@ -1,0 +1,152 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Sign Up
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="min-h-screen flex items-center justify-center px-4 relative overflow-hidden">
+  <img alt="Stunning modern cityscape at dusk with vibrant lights and reflections on water, high resolution photo" class="absolute inset-0 w-full h-full object-cover brightness-75" height="1080" src="https://storage.googleapis.com/a1aa/image/5c2ef6b3-adbe-4987-6ba5-4336ca2e533d.jpg" width="1920"/>
+  <div class="relative bg-white bg-opacity-90 rounded-3xl shadow-2xl max-w-4xl w-full flex flex-col md:flex-row overflow-hidden backdrop-blur-sm">
+   <div class="md:w-1/2 relative hidden md:block">
+    <img alt="Illustration of happy diverse people using laptops and mobile devices signing up for a service, colorful and modern style" class="object-cover w-full h-full" height="800" src="https://storage.googleapis.com/a1aa/image/333a7a96-90ff-48e4-d7f6-f8e7e915a448.jpg" width="600"/>
+    <div class="absolute bottom-6 left-6 text-white">
+     <h2 class="text-3xl font-bold mb-2 drop-shadow-lg">
+      Join Our Community
+     </h2>
+     <p class="text-lg drop-shadow-lg max-w-xs">
+      Create your account and start your journey with us today!
+     </p>
+    </div>
+   </div>
+   <div class="md:w-1/2 p-10 sm:p-14">
+    <h1 class="text-4xl font-extrabold text-gray-900 mb-6 text-center">
+     Sign Up
+    </h1>
+    <form action="#" class="space-y-6" method="POST" novalidate="" id="signup-form">
+     <div>
+      <label class="block text-sm font-semibold text-gray-700 mb-2" for="fullname">
+       Name
+      </label>
+      <div class="relative floating-label">
+       <input class="w-full border border-gray-300 rounded-lg py-3 px-4 pl-11 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition" id="fullname" name="fullname" placeholder="Your name" required="" type="text"/>
+       <span class="absolute inset-y-0 left-3 flex items-center text-indigo-500">
+        <i class="fas fa-user">
+        </i>
+       </span>
+      </div>
+     </div>
+     <div>
+      <label class="block text-sm font-semibold text-gray-700 mb-2" for="email">
+       Email Address
+      </label>
+      <div class="relative">
+       <input class="w-full border border-gray-300 rounded-lg py-3 px-4 pl-11 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+       <span class="absolute inset-y-0 left-3 flex items-center text-indigo-500">
+        <i class="fas fa-envelope">
+        </i>
+       </span>
+      </div>
+     </div>
+     <div>
+      <label class="block text-sm font-semibold text-gray-700 mb-2" for="password">
+       Password
+      </label>
+      <div class="relative">
+       <input class="w-full border border-gray-300 rounded-lg py-3 px-4 pl-11 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition" id="password" name="password" placeholder="Create a password" required="" type="password"/>
+       <span class="absolute inset-y-0 left-3 flex items-center text-indigo-500">
+        <i class="fas fa-lock">
+        </i>
+       </span>
+      </div>
+     </div>
+     <div>
+      <label class="block text-sm font-semibold text-gray-700 mb-2" for="confirm-password">
+       Confirm Password
+      </label>
+      <div class="relative">
+       <input class="w-full border border-gray-300 rounded-lg py-3 px-4 pl-11 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required="" type="password"/>
+       <span class="absolute inset-y-0 left-3 flex items-center text-indigo-500">
+        <i class="fas fa-lock">
+        </i>
+       </span>
+      </div>
+     </div>
+     <div class="flex items-center">
+      <input class="h-5 w-5 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded" id="terms" name="terms" required="" type="checkbox"/>
+      <label class="ml-3 block text-sm text-gray-700 select-none" for="terms">
+       I agree to the
+       <a class="text-indigo-600 hover:underline" href="#">
+        Terms and Conditions
+       </a>
+      </label>
+     </div>
+     <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-lg shadow-md transition flex items-center justify-center space-x-2" type="submit">
+      <span>Sign Up</span>
+      <svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round">
+       </path>
+      </svg>
+     </button>
+    </form>
+    <p class="mt-6 text-center text-gray-600 text-sm">
+     Already have an account?
+     <a class="text-indigo-600 font-semibold hover:underline" href="login bagus.html">
+      Log in
+     </a>
+    </p>
+    <div class="mt-8 flex items-center justify-center space-x-4">
+     <button aria-label="Sign up with Google" class="flex items-center justify-center space-x-3 border border-gray-300 rounded-lg py-2 px-4 w-full max-w-xs hover:shadow-md transition bg-white">
+      <img alt="Google logo, stylized G in blue, red, yellow and green colors" class="w-5 h-5" height="20" src="https://storage.googleapis.com/a1aa/image/5e817315-afe8-42c5-7e25-5a57149badf9.jpg" width="20"/>
+      <span class="text-gray-700 font-semibold">
+       Sign up with Google
+      </span>
+     </button>
+     <button aria-label="Sign up with Facebook" class="flex items-center justify-center space-x-3 border border-gray-300 rounded-lg py-2 px-4 w-full max-w-xs hover:shadow-md transition bg-white">
+      <img alt="Facebook logo, white letter F on blue background" class="w-5 h-5" height="20" src="https://storage.googleapis.com/a1aa/image/ae51e023-a9b0-44a1-4799-c1da0dfd1042.jpg" width="20"/>
+      <span class="text-gray-700 font-semibold">
+       Sign up with Facebook
+      </span>
+     </button>
+    </div>
+   </div>
+  </div>
+  <script>
+   document.getElementById('signup-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const fullname = this.fullname.value.trim();
+      const email = this.email.value.trim();
+      const password = this.password.value;
+      const confirmPassword = this['confirm-password'].value;
+      const terms = this.terms.checked;
+
+      if (!fullname || !email || !password || !confirmPassword) {
+        alert('Please fill in all fields.');
+        return;
+      }
+      if (password !== confirmPassword) {
+        alert('Passwords do not match.');
+        return;
+      }
+      if (!terms) {
+        alert('You must agree to the Terms and Conditions.');
+        return;
+      }
+
+      // Simulate form submission success
+      alert(`Thank you for signing up, ${fullname}!`);
+      this.reset();
+    });
+  </script>
+ </body>
+    </html>
